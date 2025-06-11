@@ -92,10 +92,10 @@ function Get-MACVendor {
         [string]$vendorName,
         [string]$filePath
         )
-    If ($vendorName = ''){
+    If ($vendorName -eq ''){
         Get-NetMacs
     }
-    If ($filePath=$Null){
+    If ($filePath -eq $Null){
         throw "filepath database not found."
     }
     else{
