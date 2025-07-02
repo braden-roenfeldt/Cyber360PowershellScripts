@@ -44,9 +44,7 @@ Class Circle{
 #$c2.Color.GetType()
 #$c3=[circle]::new(12) 
 #$c3  
-
 #$c4=[circle]::new()
 #$c4
-
-$c5=[circle]::new()
-$c5
+#$c5=[circle]::new()
+#$c5
