@@ -1,0 +1,1 @@
+Register-PSRepository -Name CIT361   -SourceLocation http://cit361-lab.cit.byui.edu:8624/nuget/CIT361/   -PublishLocation http://cit361-lab.cit.byui.edu:8624/nuget/IT361/   -InstallationPolicy Trusted
